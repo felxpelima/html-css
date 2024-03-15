@@ -20,7 +20,7 @@ header h1 {
     font-weight: 700;
     font-style: normal;
     text-align: center;
-    font-size: 6em;
+    font-size: 10vw;
     color: white;
     margin: 0px;
     margin-top: 50px;
@@ -36,41 +36,47 @@ header p {
     margin-bottom: 50px;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+
 
 section.normal {
     background-color: white;
     font-family: "Sriracha", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
-    padding: 92px 0px 90px 30px;
     margin: -8px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
 }
 
 .paralax {
     background-color: rgba(0, 0, 0, 0.425);
-    width: 800px;
-    height: 900px;
     font-family: "Sriracha", cursive;
+    display: inline-block;
     font-weight: 400;
     font-style: normal;
-    font-size: 4em;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.479);
     margin: 10px;
-    color: white;
     padding: 5px;
+    color: white;
 }
 
 section#img1 {
     background: black url(imagens/background001.jpg) center center no-repeat fixed;
-    height: 900px;
+    background-size: cover;
+    background-position: right center;
     padding: 90px 0px 90px 30px;
     margin: -10px -8px 8px -8px;
 }
 
 section#img2 {
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
-    height: 900px;
+    background-size: cover;
+    background-position: right center;
     padding: 90px 0px 90px 30px;
     margin: -10px -8px 8px -8px;
 }
